@@ -384,13 +384,12 @@ li i {
 /* for mobile screen view */
 
 @media (max-width: 786px) and (min-width: 580px) {
-
-    .first__section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+  .first__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .second__section_heading_text {
     min-width: 80%;
   }
@@ -409,7 +408,29 @@ li i {
     font-size: 1rem;
     text-align: center;
   }
-
-
 }
 
+@media (max-width: 580px) and (min-width: 400px) {
+  .books {
+    display: flex;
+    flex-direction: column;
+  }
+  .third__section {
+    display: flex;
+    flex-direction: column;
+  }
+  .first__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .book__boxes
+  {
+    flex-direction: column;
+  }
+  .second__section_heading_text
+  {
+    max-width: 100%;
+  }
+}
